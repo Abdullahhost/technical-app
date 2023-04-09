@@ -60,6 +60,7 @@ const formSlice = createSlice({
             const data6 = filter[0].durability;
             const data7 = filter[0].availability;
             const data8 = filter[0].needing_repair;
+            const data9 = filter[0].code;
 
             const recordItem = {
                 availability: data7, 
@@ -69,7 +70,8 @@ const formSlice = createSlice({
                 price: data2,
                 type : data4, 
                 mileage : data5, 
-                durability : data6, 
+                durability : data6,
+                code: data9, 
                 totalPrice: calculatePrice,
                 date: new Date().getDate()
             };
