@@ -1,8 +1,8 @@
-.tablesection{
+.tableSection{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    padding: 2rem;
     flex-direction: column;
 }
 
