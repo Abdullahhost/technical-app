@@ -40,7 +40,7 @@ const Table = ({data}) => {
 
 
   return (
-    <div style={forBlur.bookModal || forBlur.finalBookModal || forBlur.returnBookModal || forBlur.finalReturnBookModal ? {filter: 'blur(5px)', transform: 'scale(.8)', transition: 'all ease 800ms'} : {filter : 'none', transition: 'transform 350ms cubic-bezier(0, -0.34, 0.09, 1.52)'} }>
+    <div className='tableSection' style={forBlur.bookModal || forBlur.finalBookModal || forBlur.returnBookModal || forBlur.finalReturnBookModal ? {filter: 'blur(5px)', transform: 'scale(.8)', transition: 'all ease 800ms'} : {filter : 'none', transition: 'transform 350ms cubic-bezier(0, -0.34, 0.09, 1.52)'} }>
       <table>
         <thead>
         <tr>
